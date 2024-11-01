@@ -14,7 +14,7 @@
 - [Официальная страница сборки](https://www.curseforge.com/minecraft/modpacks/plastek-2)
   
 #### <span style="color:red">Если что-то поломалось / хотите вернуть оригинал</span>
-- <span style="color:red">Скачайте и установить backup</span>
+- <span style="color:red">Скачайте и извлеките  backup в **корневую папку сборки | Например:** `C:\Users\user\curseforge\minecraft\Instances\Plastek 2`</span>
   -  [Скачать backup](https://github.com/Elder1711/Plastek-2-RU-quest/releases/download/v.1.10.1ru/backup.zip)
 
 ###### Ключевые слова для поиска
