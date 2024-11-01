@@ -1,0 +1,316 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dimensional_dungeons"
+	group: "7CE349CFA49357E1"
+	icon: "dimdungeons:item_blank_teleporter_key"
+	id: "1E2E6602392FC07D"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["403012796042CA62"]
+			id: "2F9CA22F3F1C3BB5"
+			shape: "square"
+			tasks: [{
+				count: 2L
+				id: "318BA8C3AC122217"
+				item: "dimdungeons:block_gilded_portal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["403012796042CA62"]
+			id: "66B59012C4A947A1"
+			shape: "square"
+			tasks: [{
+				id: "64BE7B0F2D83BDE5"
+				item: "dimdungeons:block_portal_keyhole"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["403012796042CA62"]
+			description: ["{ftbquests.chapter.dimensional_dungeons.quest3.description1}"]
+			id: "12F3E8D24E0849BF"
+			tasks: [{
+				count: 2L
+				id: "50A7ED8AADF8F8B8"
+				item: "dimdungeons:block_portal_crown"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3FA42EDA37D8EE4C"]
+			id: "4D92496282DC130E"
+			shape: "square"
+			tasks: [{
+				id: "7795D7EB25DE6C84"
+				item: "dimdungeons:block_key_charger"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["762FB1842B0194F1"]
+			id: "4001C93B91357DFB"
+			shape: "square"
+			tasks: [
+				{
+					id: "6BEC156A7EFB8C98"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+				{
+					id: "1B4EE02CA1F4DA86"
+					item: "dimdungeons:item_blank_advanced_key"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["762FB1842B0194F1"]
+			id: "64E8F9C85C5926A6"
+			tasks: [{
+				id: "4F61879FBF7D0177"
+				item: "dimdungeons:item_blank_build_key"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7C5CA16ABA0C3314"]
+			id: "08B4605C93F072C2"
+			tasks: [{
+				id: "3678A4110C378EC9"
+				item: "dimdungeons:item_secret_bell"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C5CA16ABA0C3314"]
+			id: "622E1117C3954BF4"
+			tasks: [{
+				id: "43808CF268B0B341"
+				item: "dimdungeons:item_homeward_pearl"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			description: ["{ftbquests.chapter.dimensional_dungeons.quest9.description1}"]
+			id: "324CADB3FE915800"
+			shape: "diamond"
+			tasks: [{
+				id: "091C23EDCF35F523"
+				title: "{ftbquests.chapter.dimensional_dungeons.quest9.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.dimensional_dungeons.quest9.title}"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["403012796042CA62"]
+			id: "45417DF587D0370C"
+			shape: "square"
+			tasks: [{
+				count: 9L
+				id: "0E6B52F058EC04C3"
+				item: "minecraft:stone_bricks"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["324CADB3FE915800"]
+			description: [
+				"{ftbquests.chapter.dimensional_dungeons.quest11.description1}"
+				""
+				"{ftbquests.chapter.dimensional_dungeons.quest11.description2}"
+			]
+			id: "403012796042CA62"
+			shape: "diamond"
+			tasks: [{
+				id: "1F60A6A67736D315"
+				title: "{ftbquests.chapter.dimensional_dungeons.quest11.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.dimensional_dungeons.quest11.title}"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["324CADB3FE915800"]
+			description: [
+				"{ftbquests.chapter.dimensional_dungeons.quest12.description1}"
+				""
+				"{ftbquests.chapter.dimensional_dungeons.quest12.description2}"
+				""
+				"{ftbquests.chapter.dimensional_dungeons.quest12.description3}"
+				""
+				"{ftbquests.chapter.dimensional_dungeons.quest12.description4}"
+				""
+				"{ftbquests.chapter.dimensional_dungeons.quest12.description5}"
+			]
+			id: "762FB1842B0194F1"
+			shape: "diamond"
+			tasks: [{
+				id: "1E560B51617DF490"
+				title: "{ftbquests.chapter.dimensional_dungeons.quest12.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.dimensional_dungeons.quest12.title}"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["324CADB3FE915800"]
+			description: [
+				"{ftbquests.chapter.dimensional_dungeons.quest13.description1}"
+				""
+				"{ftbquests.chapter.dimensional_dungeons.quest13.description2}"
+			]
+			id: "3FA42EDA37D8EE4C"
+			shape: "diamond"
+			tasks: [{
+				id: "1365C42D38A66503"
+				title: "{ftbquests.chapter.dimensional_dungeons.quest13.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.dimensional_dungeons.quest13.title}"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["324CADB3FE915800"]
+			description: [
+				"{ftbquests.chapter.dimensional_dungeons.quest14.description1}"
+				""
+				"{ftbquests.chapter.dimensional_dungeons.quest14.description2}"
+			]
+			id: "7C5CA16ABA0C3314"
+			shape: "diamond"
+			tasks: [{
+				id: "3D7EB9D56A4384EC"
+				title: "{ftbquests.chapter.dimensional_dungeons.quest14.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.dimensional_dungeons.quest14.title}"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["762FB1842B0194F1"]
+			id: "0E5611563BF38B0A"
+			tasks: [{
+				id: "418C75F65CC4C15C"
+				item: "dimdungeons:item_blank_teleporter_key"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3FA42EDA37D8EE4C"]
+			id: "25896668E40F87D4"
+			tasks: [{
+				id: "036BF0BACCB8FE55"
+				item: "minecraft:end_portal_frame"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["403012796042CA62"]
+			id: "6115D9DDFA27E2EB"
+			tasks: [{
+				count: 2L
+				id: "5E33F27E70758F8F"
+				item: "minecraft:purple_banner"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["403012796042CA62"]
+			id: "61DD14397B2D57FC"
+			tasks: [{
+				count: 2L
+				id: "23969D47E60101F7"
+				item: "minecraft:white_banner"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4001C93B91357DFB"]
+			id: "1F4EA2598776F0C9"
+			shape: "square"
+			tasks: [{
+				id: "1772EE949FBD5CC2"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.dimensional_dungeons.quest19.title}"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1F4EA2598776F0C9"]
+			icon: {
+				Count: 1
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3F10104B31691883"
+			rewards: [{
+				id: "600706A6C515A03A"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "21F707B925E38E60"
+				title: "{ftbquests.chapter.dimensional_dungeons.quest20.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.dimensional_dungeons.quest20.title}"
+			x: 3.0d
+			y: -8.5d
+		}
+	]
+	title: "{ftbquests.chapter.dimensional_dungeons.title}"
+}

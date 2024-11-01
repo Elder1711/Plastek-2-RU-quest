@@ -1,0 +1,1548 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech_4"
+	group: "581F41F63919A6BC"
+	icon: "mekanism:pellet_polonium"
+	id: "6D1963B94511AE72"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"257402EE12A0291C"
+				"5318695938952BC3"
+			]
+			id: "6AC02C5DEB6F3E4F"
+			shape: "gear"
+			tasks: [{
+				id: "5E1710B0176E7836"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3032B2494462540C"
+				"3D5A3EC91F698A7C"
+				"4DA133B6119B5276"
+			]
+			id: "0913BD7E65A1B516"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2481B0EFB2FD46FB"
+					table_id: 4658539685949471833L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AF23C132A63C048"
+					table_id: 2698554318784890319L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "18861092CB772D09"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["19BBCC3FA516AAC9"]
+			id: "29E38569A0067D91"
+			tasks: [{
+				id: "07160B848F4BB040"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19BBCC3FA516AAC9"]
+			id: "4B68D55D4F73EC58"
+			tasks: [{
+				id: "45070EA90F572E09"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19BBCC3FA516AAC9"]
+			id: "55CF4733EE222587"
+			tasks: [{
+				id: "170A5B984890A04D"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19BBCC3FA516AAC9"]
+			id: "260D0A8DA557458A"
+			tasks: [{
+				id: "4ADDC54FAFF64AF6"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19BBCC3FA516AAC9"]
+			id: "710306F7465BB3E1"
+			tasks: [{
+				id: "780E3A7D469B8974"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19BBCC3FA516AAC9"]
+			id: "0C481B280BEC851B"
+			subtitle: "{ftbquests.chapter.tech_4.quest8.subtitle}"
+			tasks: [{
+				id: "71DDBC5AD8D7E3C0"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"29E38569A0067D91"
+				"55CF4733EE222587"
+				"4B68D55D4F73EC58"
+				"710306F7465BB3E1"
+				"260D0A8DA557458A"
+				"0C481B280BEC851B"
+			]
+			description: [
+				"{ftbquests.chapter.tech_4.quest9.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest9.description2}"
+				""
+				"{ftbquests.chapter.tech_4.quest9.description3}"
+				""
+				"{ftbquests.chapter.tech_4.quest9.description4}"
+				""
+				"{ftbquests.chapter.tech_4.quest9.description5}"
+				""
+				"{ftbquests.chapter.tech_4.quest9.description6}"
+				""
+				"{ftbquests.chapter.tech_4.quest9.description7}"
+			]
+			icon: "mekanism:sulfuric_acid_bucket"
+			id: "76E824CE8DB0B85A"
+			tasks: [{
+				id: "6D72E578156E3FAF"
+				title: "{ftbquests.chapter.tech_4.quest9.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tech_4.quest9.title}"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19BBCC3FA516AAC9"]
+			id: "0EE63E32A3330E0C"
+			tasks: [{
+				id: "587B8ECFDF995CCE"
+				item: "mekanism:chemical_washer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19BBCC3FA516AAC9"]
+			id: "14D800D7D52B7B22"
+			tasks: [{
+				id: "53BEE7771A5CDF2F"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19BBCC3FA516AAC9"]
+			id: "737114B9AD2F1F1A"
+			tasks: [
+				{
+					count: 33L
+					id: "211C6CBD0F2802B0"
+					item: { Count: 33, id: "mekanism:thermal_evaporation_block" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7535FF525242660E"
+					item: { Count: 2, id: "mekanism:thermal_evaporation_valve" }
+					type: "item"
+				}
+				{
+					id: "4AA65C0F4CDED016"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tech_4.quest12.title}"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19BBCC3FA516AAC9"]
+			id: "2989038259B5375D"
+			tasks: [{
+				count: 4L
+				id: "2D419A717D69EF75"
+				item: "mekanismgenerators:advanced_solar_generator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19BBCC3FA516AAC9"]
+			id: "1780549A40E0E565"
+			tasks: [{
+				id: "63860D1E74320D62"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19BBCC3FA516AAC9"]
+			id: "39992D39F80E3E56"
+			tasks: [{
+				id: "07C0D28D8683F9A7"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19BBCC3FA516AAC9"]
+			id: "608FA202E225BDFD"
+			tasks: [{
+				id: "089E165D51082769"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19BBCC3FA516AAC9"]
+			id: "77D410BDD7749612"
+			tasks: [{
+				id: "0A437DF3BE736BD8"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"737114B9AD2F1F1A"
+				"39992D39F80E3E56"
+				"1780549A40E0E565"
+				"608FA202E225BDFD"
+				"77D410BDD7749612"
+			]
+			description: [
+				"{ftbquests.chapter.tech_4.quest18.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest18.description2}"
+				""
+				"{ftbquests.chapter.tech_4.quest18.description3}"
+				""
+				"{ftbquests.chapter.tech_4.quest18.description4}"
+				""
+				"{ftbquests.chapter.tech_4.quest18.description5}"
+				""
+				"{ftbquests.chapter.tech_4.quest18.description6}"
+				""
+				"{ftbquests.chapter.tech_4.quest18.description7}"
+			]
+			icon: "mekanism:hydrogen_chloride_bucket"
+			id: "43EF2658175AD5F2"
+			tasks: [{
+				id: "1ADC34B07B5CB8A6"
+				title: "{ftbquests.chapter.tech_4.quest18.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tech_4.quest18.title}"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19BBCC3FA516AAC9"]
+			id: "0A11C12D7487D990"
+			tasks: [{
+				id: "303E8DA03AF7AC86"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A11C12D7487D990"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest20.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest20.description2}"
+			]
+			icon: "mekanism:oxygen_bucket"
+			id: "6AB5CC77CFE5CC53"
+			tasks: [{
+				id: "61A46F3CFE188D17"
+				title: "{ftbquests.chapter.tech_4.quest20.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tech_4.quest20.title}"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19BBCC3FA516AAC9"]
+			id: "1D6CAA69CB978747"
+			tasks: [{
+				id: "36071DD607B6B063"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19BBCC3FA516AAC9"]
+			id: "5FAB4375BFFBFBB2"
+			tasks: [{
+				id: "67AEFFCD9BAD588A"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19BBCC3FA516AAC9"]
+			id: "6BFD9A6287578463"
+			tasks: [{
+				id: "002723439011D7F2"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.tech_4.quest24.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest24.description2}"
+				""
+				"{ftbquests.chapter.tech_4.quest24.description3}"
+				""
+				"{ftbquests.chapter.tech_4.quest24.description4}"
+				""
+				"{ftbquests.chapter.tech_4.quest24.description5}"
+				""
+				"{ftbquests.chapter.tech_4.quest24.description6}"
+			]
+			id: "4774F1D6D5913E27"
+			shape: "diamond"
+			tasks: [{
+				id: "5EB68351F4D35D22"
+				title: "{ftbquests.chapter.tech_4.quest24.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tech_4.quest24.title}"
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4774F1D6D5913E27"]
+			id: "654A9DB073BF3B71"
+			shape: "square"
+			tasks: [{
+				id: "3B5B0740280A28C8"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4774F1D6D5913E27"]
+			id: "6E53EDEB5AA8133F"
+			shape: "square"
+			tasks: [{
+				id: "2B8BBA59E1E561D8"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4774F1D6D5913E27"]
+			id: "7849FC2D40C6F16E"
+			shape: "square"
+			tasks: [{
+				id: "6C440A878465A74D"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4774F1D6D5913E27"]
+			id: "002771C6C75C33D1"
+			shape: "square"
+			tasks: [{
+				id: "744F2662C9AB0708"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4774F1D6D5913E27"]
+			id: "6178AC0772C215BB"
+			shape: "square"
+			tasks: [{
+				id: "6C8068D9B70FF3E5"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.tech_4.quest30.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest30.description2}"
+				""
+				"{ftbquests.chapter.tech_4.quest30.description3}"
+				""
+				"{ftbquests.chapter.tech_4.quest30.description4}"
+				""
+				"{ftbquests.chapter.tech_4.quest30.description5}"
+			]
+			id: "49C6B1723284E0CA"
+			shape: "diamond"
+			tasks: [{
+				id: "7821958C250EE960"
+				title: "{ftbquests.chapter.tech_4.quest30.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tech_4.quest30.title}"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["49C6B1723284E0CA"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest31.description1}"
+				"{ftbquests.chapter.tech_4.quest31.description2}"
+				"{ftbquests.chapter.tech_4.quest31.description3}"
+				""
+				"{ftbquests.chapter.tech_4.quest31.description4}"
+				""
+				"{ftbquests.chapter.tech_4.quest31.description5}"
+				""
+				"{ftbquests.chapter.tech_4.quest31.description6}"
+				""
+				"{ftbquests.chapter.tech_4.quest31.description7}"
+				""
+				""
+				"{ftbquests.chapter.tech_4.quest31.image0}"
+			]
+			id: "5318695938952BC3"
+			shape: "square"
+			tasks: [
+				{
+					id: "3E8963C4557C1B46"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "7023CF8D28ED31B2"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "4EEC44A1B70708BC"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+				{
+					id: "34FD62ECEC6722B8"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tech_4.quest31.title}"
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.tech_4.quest32.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest32.description2}"
+			]
+			id: "1886958B213FC51A"
+			shape: "diamond"
+			tasks: [{
+				id: "3E3951A6A7B029CD"
+				title: "{ftbquests.chapter.tech_4.quest32.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tech_4.quest32.title}"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1886958B213FC51A"]
+			id: "07EB1F830ACAA9D3"
+			shape: "square"
+			tasks: [{
+				id: "38B7D7F5FDB56BC6"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1886958B213FC51A"]
+			id: "257402EE12A0291C"
+			shape: "square"
+			tasks: [{
+				id: "1604DCCB958D857C"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5318695938952BC3"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest35.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest35.description2}"
+				""
+				"{ftbquests.chapter.tech_4.quest35.description3}"
+				""
+				"{ftbquests.chapter.tech_4.quest35.description4}"
+				""
+				"{ftbquests.chapter.tech_4.quest35.description5}"
+				"{ftbquests.chapter.tech_4.quest35.image0}"
+				""
+				"{ftbquests.chapter.tech_4.quest35.description6}"
+				"{ftbquests.chapter.tech_4.quest35.image2}"
+			]
+			id: "497844182791F3F5"
+			shape: "square"
+			tasks: [
+				{
+					id: "70EC1C75C8941B00"
+					item: "mekanismgenerators:turbine_casing"
+					type: "item"
+				}
+				{
+					id: "23E44FDDE9640608"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "7B0633E777D0C801"
+					item: "mekanismgenerators:turbine_rotor"
+					type: "item"
+				}
+				{
+					id: "6A4A95B45A6DB66F"
+					item: "mekanismgenerators:turbine_blade"
+					type: "item"
+				}
+				{
+					id: "7E5D2AEDA7E20C16"
+					item: "mekanismgenerators:turbine_vent"
+					type: "item"
+				}
+				{
+					id: "382847A10931A898"
+					item: "mekanismgenerators:saturating_condenser"
+					type: "item"
+				}
+				{
+					id: "7E697189AE356036"
+					item: "mekanismgenerators:electromagnetic_coil"
+					type: "item"
+				}
+				{
+					id: "5960E143AE23FF6F"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					id: "0B074D4CB03497E8"
+					item: "mekanismgenerators:turbine_valve"
+					type: "item"
+				}
+				{
+					id: "7A22C269C0A775F4"
+					item: "mekanismgenerators:rotational_complex"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tech_4.quest35.title}"
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["37AE1CD5B128B1EC"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest36.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest36.description2}"
+				""
+				"{ftbquests.chapter.tech_4.quest36.description3}"
+				""
+				"{ftbquests.chapter.tech_4.quest36.description4}"
+			]
+			id: "49FBB3232CB4E50B"
+			shape: "diamond"
+			tasks: [{
+				id: "0FB87CDC23DF92D4"
+				title: "{ftbquests.chapter.tech_4.quest36.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tech_4.quest36.title}"
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["49FBB3232CB4E50B"]
+			id: "3032B2494462540C"
+			shape: "square"
+			tasks: [{
+				id: "61A9CC6AB9B8E411"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49FBB3232CB4E50B"]
+			id: "4DA133B6119B5276"
+			shape: "square"
+			tasks: [{
+				id: "20E61BD69A7FB7E0"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["49FBB3232CB4E50B"]
+			id: "3D5A3EC91F698A7C"
+			shape: "square"
+			tasks: [{
+				id: "5DF5A9462F7C7B16"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.tech_4.quest40.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest40.description2}"
+				""
+				"{ftbquests.chapter.tech_4.quest40.description3}"
+			]
+			id: "19BBCC3FA516AAC9"
+			shape: "diamond"
+			tasks: [{
+				id: "63A88BF7D020774A"
+				title: "{ftbquests.chapter.tech_4.quest40.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tech_4.quest40.title}"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F2FF5DF80793563"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest41.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest41.description2}"
+				""
+				"{ftbquests.chapter.tech_4.quest41.description3}"
+				""
+				"{ftbquests.chapter.tech_4.quest41.description4}"
+				""
+				"{ftbquests.chapter.tech_4.quest41.description5}"
+				""
+				"{ftbquests.chapter.tech_4.quest41.description6}"
+				""
+				"{ftbquests.chapter.tech_4.quest41.description7}"
+				""
+				"{ftbquests.chapter.tech_4.quest41.description8}"
+				""
+				"{ftbquests.chapter.tech_4.quest41.description9}"
+				""
+				"{ftbquests.chapter.tech_4.quest41.description10}"
+			]
+			id: "20DB272F812BD9E1"
+			shape: "square"
+			tasks: [{
+				id: "7D4DAD9842FB72C5"
+				item: "draconicevolution:chaos_shard"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tech_4.quest41.title}"
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"20DB272F812BD9E1"
+				"6AC02C5DEB6F3E4F"
+			]
+			id: "63B78D88FBAB6378"
+			shape: "square"
+			tasks: [{
+				id: "2954316B8C7ABDFC"
+				item: "draconicevolution:chaotic_crafting_injector"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["70748E931AC07711"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest43.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest43.description2}"
+				"{ftbquests.chapter.tech_4.quest43.description3}"
+				"{ftbquests.chapter.tech_4.quest43.description4}"
+				""
+				"{ftbquests.chapter.tech_4.quest43.description5}"
+				""
+				"{ftbquests.chapter.tech_4.quest43.description6}"
+				""
+				"{ftbquests.chapter.tech_4.quest43.description7}"
+				""
+				"{ftbquests.chapter.tech_4.quest43.image0}"
+			]
+			id: "3AD87E8909BCBC81"
+			shape: "square"
+			tasks: [{
+				id: "07692BB0537720FA"
+				item: "draconicevolution:reactor_core"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["70748E931AC07711"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest44.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest44.image0}"
+			]
+			id: "11C121B8781C237E"
+			shape: "square"
+			tasks: [{
+				count: 4L
+				id: "01203FB60BEB1DA7"
+				item: { Count: 4, id: "draconicevolution:reactor_stabilizer" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["70748E931AC07711"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest45.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest45.description2}"
+				"{ftbquests.chapter.tech_4.quest45.description3}"
+				"{ftbquests.chapter.tech_4.quest45.description4}"
+				""
+				"{ftbquests.chapter.tech_4.quest45.description5}"
+				""
+				"{ftbquests.chapter.tech_4.quest45.image0}"
+			]
+			id: "37FECF3B30F8693B"
+			shape: "square"
+			tasks: [{
+				id: "771ED35AA658A9FE"
+				item: "draconicevolution:reactor_injector"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["20DB272F812BD9E1"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest46.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest46.description2}"
+				""
+				"{ftbquests.chapter.tech_4.quest46.description3}"
+			]
+			id: "70748E931AC07711"
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.tech_4.quest46.subtitle}"
+			tasks: [{
+				id: "631C0ED6D5A064D6"
+				title: "{ftbquests.chapter.tech_4.quest46.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tech_4.quest46.title}"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.tech_4.quest47.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest47.description2}"
+				""
+				"{ftbquests.chapter.tech_4.quest47.description3}"
+				"{ftbquests.chapter.tech_4.quest47.description4}"
+				""
+				"{ftbquests.chapter.tech_4.quest47.description5}"
+				"{ftbquests.chapter.tech_4.quest47.description6}"
+			]
+			id: "4F2FF5DF80793563"
+			shape: "diamond"
+			tasks: [{
+				id: "747DF60FF79707D1"
+				title: "{ftbquests.chapter.tech_4.quest47.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tech_4.quest47.title}"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0C481B280BEC851B"]
+			id: "2872933910C4D524"
+			shape: "circle"
+			tasks: [{
+				id: "536E14AC2896FD80"
+				title: "{ftbquests.chapter.tech_4.quest48.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tech_4.quest48.title}"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6AC02C5DEB6F3E4F"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest49.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest49.description2}"
+				""
+				"{ftbquests.chapter.tech_4.quest49.description3}"
+				""
+				"{ftbquests.chapter.tech_4.quest49.description4}"
+			]
+			id: "22D857CB50825475"
+			shape: "square"
+			tasks: [{
+				id: "5370328D0292D3B7"
+				item: "draconicevolution:energy_core"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6AC02C5DEB6F3E4F"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest50.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest50.description2}"
+			]
+			id: "5935154E3ACC3B66"
+			shape: "square"
+			tasks: [{
+				id: "17CD438655A72E31"
+				item: "draconicevolution:energy_core_stabilizer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["03E9A8AC1713B8EC"]
+			id: "5070AAA6B4E95E1B"
+			shape: "square"
+			tasks: [{
+				id: "243028A829DF6E52"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3E51009DB1BEC2C7"
+				"28646211F8A6E9CC"
+				"53CDC1CB571F1C6C"
+				"2C3D337FBD338C8D"
+			]
+			id: "03E9A8AC1713B8EC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "78539753ED2869A3"
+					table_id: 4658539685949471833L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F9D956A37642BB6"
+					table_id: 2698554318784890319L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "4228D038C6F332FF"
+				item: "thermal:phytogro"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0C3E1DF490C610F6"]
+			id: "3E51009DB1BEC2C7"
+			shape: "square"
+			tasks: [{
+				id: "402E8F39AF12B6D2"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.0d
+		}
+		{
+			id: "28646211F8A6E9CC"
+			shape: "square"
+			tasks: [{
+				id: "6AABA75779C3A461"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["33B551E159E28880"]
+			id: "53CDC1CB571F1C6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A17DAEFC7A5D0BF"
+				table_id: 4658539685949471833L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "184488027101E15A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/apatite"
+					}
+				}
+				title: "{ftbquests.chapter.tech_4.quest55.task.title1}"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["33B551E159E28880"]
+			id: "2C3D337FBD338C8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "704FFDD8FEFA3D68"
+				table_id: 4658539685949471833L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "425C6200F174E7F7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/niter"
+					}
+				}
+				title: "{ftbquests.chapter.tech_4.quest56.task.title1}"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5BE612CEC404C431"]
+			id: "0C3E1DF490C610F6"
+			shape: "square"
+			tasks: [
+				{
+					id: "19F2475242542484"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "43835A553C237666"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4F28D8D1459B097C"
+					item: "minecraft:rotten_flesh"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "06031F3E784F36A4"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tech_4.quest57.title}"
+			x: -11.5d
+			y: 7.0d
+		}
+		{
+			description: ["{ftbquests.chapter.tech_4.quest58.description1}"]
+			id: "33B551E159E28880"
+			shape: "diamond"
+			tasks: [{
+				id: "1B684172E8B917AB"
+				title: "{ftbquests.chapter.tech_4.quest58.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tech_4.quest58.title}"
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.tech_4.quest59.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest59.description2}"
+			]
+			id: "5BE612CEC404C431"
+			shape: "diamond"
+			tasks: [{
+				id: "181CE1F7898EDD12"
+				title: "{ftbquests.chapter.tech_4.quest59.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tech_4.quest59.title}"
+			x: -11.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5070AAA6B4E95E1B"]
+			id: "37AE1CD5B128B1EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3682B7F8EFE77453"
+				table_id: 4658539685949471833L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "312A5944E30D9465"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49FBB3232CB4E50B"]
+			id: "3A74D6472D314485"
+			shape: "square"
+			tasks: [{
+				id: "054907F6FCE8C7B8"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70748E931AC07711"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest62.description1}"
+				"{ftbquests.chapter.tech_4.quest62.image0}"
+				"{ftbquests.chapter.tech_4.quest62.description2}"
+				""
+				"{ftbquests.chapter.tech_4.quest62.description3}"
+				"{ftbquests.chapter.tech_4.quest62.image2}"
+				"{ftbquests.chapter.tech_4.quest62.description4}"
+			]
+			id: "5C3A27D756D02394"
+			shape: "square"
+			tasks: [{
+				id: "43760E50DBA145FA"
+				item: "draconicevolution:flux_gate"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["70748E931AC07711"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest63.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest63.description2}"
+			]
+			id: "4AD5103CA2ABFDD7"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.tech_4.quest63.subtitle}"
+			tasks: [{
+				id: "63270979E0347F6D"
+				item: "draconicevolution:awakened_draconium_block"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"22D857CB50825475"
+				"5935154E3ACC3B66"
+			]
+			description: ["{ftbquests.chapter.tech_4.quest64.description1}"]
+			icon: "draconicevolution:draconium_block"
+			id: "67703589194E23C7"
+			subtitle: "{ftbquests.chapter.tech_4.quest64.subtitle}"
+			tasks: [{
+				id: "6C1F49731FD7F0E9"
+				title: "{ftbquests.chapter.tech_4.quest64.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tech_4.quest64.title}"
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["67703589194E23C7"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest65.description1}"
+				""
+				""
+				"{ftbquests.chapter.tech_4.quest65.image0}"
+			]
+			icon: "draconicevolution:draconium_block"
+			id: "5D1943BF0BD4F19C"
+			subtitle: "{ftbquests.chapter.tech_4.quest65.subtitle}"
+			tasks: [{
+				count: 6L
+				id: "2B2D6E6E574B9D71"
+				item: "draconicevolution:draconium_block"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tech_4.quest65.title}"
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5D1943BF0BD4F19C"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest66.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest66.description2}"
+				"{ftbquests.chapter.tech_4.quest66.description3}"
+				""
+				""
+				"{ftbquests.chapter.tech_4.quest66.image0}"
+			]
+			icon: "draconicevolution:draconium_block"
+			id: "5E4514281CBAFCCD"
+			subtitle: "{ftbquests.chapter.tech_4.quest66.subtitle}"
+			tasks: [{
+				count: 20L
+				id: "606893994D42C791"
+				item: "draconicevolution:draconium_block"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.tech_4.quest66.title}"
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5E4514281CBAFCCD"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest67.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest67.description2}"
+				""
+				"{ftbquests.chapter.tech_4.quest67.description3}"
+				""
+				"{ftbquests.chapter.tech_4.quest67.description4}"
+				"{ftbquests.chapter.tech_4.quest67.description5}"
+				"{ftbquests.chapter.tech_4.quest67.description6}"
+				""
+				""
+				"{ftbquests.chapter.tech_4.quest67.image0}"
+			]
+			icon: "draconicevolution:draconium_block"
+			id: "5EE39E05D33EED34"
+			subtitle: "{ftbquests.chapter.tech_4.quest67.subtitle}"
+			tasks: [
+				{
+					count: 28L
+					id: "267C3C65EA3B7410"
+					item: "draconicevolution:draconium_block"
+					type: "item"
+				}
+				{
+					count: 26L
+					id: "507B42463835D486"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tech_4.quest67.title}"
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5EE39E05D33EED34"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest68.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest68.description2}"
+				""
+				"{ftbquests.chapter.tech_4.quest68.description3}"
+				""
+				"{ftbquests.chapter.tech_4.quest68.description4}"
+				"{ftbquests.chapter.tech_4.quest68.description5}"
+				"{ftbquests.chapter.tech_4.quest68.description6}"
+				"{ftbquests.chapter.tech_4.quest68.description7}"
+				""
+				"{ftbquests.chapter.tech_4.quest68.image0}"
+				""
+				"{ftbquests.chapter.tech_4.quest68.description8}"
+				"{ftbquests.chapter.tech_4.quest68.image2}"
+			]
+			icon: "draconicevolution:draconium_block"
+			id: "0B1F629B9DFBE2BA"
+			subtitle: "{ftbquests.chapter.tech_4.quest68.subtitle}"
+			tasks: [
+				{
+					count: 32L
+					id: "4A4D034BE7BC11BC"
+					item: "draconicevolution:energy_core_stabilizer"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "5449DAF0D0C12F7A"
+					item: { Count: 36, id: "draconicevolution:draconium_block" }
+					type: "item"
+				}
+				{
+					count: 54L
+					id: "599FBE09E4107FAE"
+					item: { Count: 54, id: "minecraft:redstone_block" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tech_4.quest68.title}"
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0B1F629B9DFBE2BA"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest69.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest69.description2}"
+				"{ftbquests.chapter.tech_4.quest69.description3}"
+				"{ftbquests.chapter.tech_4.quest69.description4}"
+				"{ftbquests.chapter.tech_4.quest69.description5}"
+				""
+				""
+				"{ftbquests.chapter.tech_4.quest69.image0}"
+			]
+			icon: "draconicevolution:draconium_block"
+			id: "492D6BF8C24C52F2"
+			subtitle: "{ftbquests.chapter.tech_4.quest69.subtitle}"
+			tasks: [
+				{
+					count: 60L
+					id: "4E8A106F691F4116"
+					item: "draconicevolution:draconium_block"
+					type: "item"
+				}
+				{
+					count: 98L
+					id: "3A9C8C7825D5B23C"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tech_4.quest69.title}"
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["492D6BF8C24C52F2"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest70.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest70.description2}"
+				"{ftbquests.chapter.tech_4.quest70.description3}"
+				"{ftbquests.chapter.tech_4.quest70.description4}"
+				"{ftbquests.chapter.tech_4.quest70.description5}"
+				""
+				""
+				"{ftbquests.chapter.tech_4.quest70.image0}"
+			]
+			icon: "draconicevolution:draconium_block"
+			id: "6089575B5D8D523D"
+			subtitle: "{ftbquests.chapter.tech_4.quest70.subtitle}"
+			tasks: [
+				{
+					count: 60L
+					id: "6E2A7674DED35B6B"
+					item: { Count: 60, id: "draconicevolution:draconium_block" }
+					type: "item"
+				}
+				{
+					count: 150L
+					id: "394A82D7B6472929"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tech_4.quest70.title}"
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6089575B5D8D523D"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest71.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest71.description2}"
+				""
+				"{ftbquests.chapter.tech_4.quest71.description3}"
+				"{ftbquests.chapter.tech_4.quest71.description4}"
+				"{ftbquests.chapter.tech_4.quest71.description5}"
+				""
+				""
+				"{ftbquests.chapter.tech_4.quest71.image0}"
+			]
+			icon: "draconicevolution:awakened_draconium_block"
+			id: "0FC633357A7AC228"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F62F757F1BE709D"
+					table_id: 4658539685949471833L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72A17131655BF83E"
+					table_id: 2698554318784890319L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "{ftbquests.chapter.tech_4.quest71.subtitle}"
+			tasks: [
+				{
+					count: 576L
+					id: "71FB4B0131B75A42"
+					item: "draconicevolution:draconium_block"
+					type: "item"
+				}
+				{
+					count: 378L
+					id: "51349547E7690A7D"
+					item: "draconicevolution:awakened_draconium_block"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.tech_4.quest71.title}"
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"22D857CB50825475"
+				"5935154E3ACC3B66"
+			]
+			description: [
+				"{ftbquests.chapter.tech_4.quest72.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest72.description2}"
+				"{ftbquests.chapter.tech_4.quest72.image0}"
+				"{ftbquests.chapter.tech_4.quest72.description3}"
+				""
+				"{ftbquests.chapter.tech_4.quest72.description4}"
+				"{ftbquests.chapter.tech_4.quest72.image2}"
+				"{ftbquests.chapter.tech_4.quest72.description5}"
+			]
+			id: "3E722615DED5C967"
+			tasks: [
+				{
+					id: "30CFD3B196FF86F2"
+					item: "draconicevolution:energy_pylon"
+					type: "item"
+				}
+				{
+					id: "768AAC0E1EC64FD0"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3AD87E8909BCBC81"]
+			description: [
+				"{ftbquests.chapter.tech_4.quest73.description1}"
+				""
+				"{ftbquests.chapter.tech_4.quest73.description2}"
+			]
+			id: "27B63658469BEC98"
+			shape: "diamond"
+			tasks: [{
+				id: "65C04196337B1E3D"
+				title: "{ftbquests.chapter.tech_4.quest73.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tech_4.quest73.title}"
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27B63658469BEC98"]
+			id: "13B259277B0DFD6D"
+			tasks: [{
+				id: "42814E5B5865A2FC"
+				item: "mekanismgenerators:reactor_glass"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["27B63658469BEC98"]
+			id: "4646B32C8184F6DC"
+			tasks: [{
+				id: "7769EDE2061575A6"
+				item: "mekanism:sps_casing"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27B63658469BEC98"]
+			id: "3A5F38EB071C55C6"
+			tasks: [{
+				id: "5ABDB067BFB6C85C"
+				item: "mekanism:supercharged_coil"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["27B63658469BEC98"]
+			id: "50ADCB631509EAF6"
+			tasks: [{
+				id: "06057BDA04F1870B"
+				item: "mekanism:sps_port"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["16FB1CE7AF3E0490"]
+			id: "5D8542C39BDECE33"
+			shape: "gear"
+			tasks: [{
+				id: "40FAB3F5EA8B5AD3"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["27B63658469BEC98"]
+			id: "16FB1CE7AF3E0490"
+			tasks: [{
+				id: "3287449D01ECC340"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.0d
+		}
+	]
+	title: "{ftbquests.chapter.tech_4.title}"
+}

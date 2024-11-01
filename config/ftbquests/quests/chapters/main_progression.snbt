@@ -1,0 +1,657 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "main_progression"
+	group: "32144DBD66776AC0"
+	icon: "statues:player_statue_spawn_egg"
+	id: "1DDECC0A3D638715"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["30F9D708441CB9FC"]
+			description: [
+				"{ftbquests.chapter.main_progression.quest1.description1}"
+				""
+				"{ftbquests.chapter.main_progression.quest1.description2}"
+				""
+				"{ftbquests.chapter.main_progression.quest1.description3}"
+				""
+				"{ftbquests.chapter.main_progression.quest1.description4}"
+				""
+				"[\"\",{\"underlined\":1,\"translate\":\"ftbquests.chapter.main_progression.quest1.rich_description1\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"47B600AF3A91F036\"}}]"
+			]
+			icon: "create:precision_mechanism"
+			id: "3A56D7945D8B8C54"
+			rewards: [
+				{
+					id: "0AD86D3C71A8A971"
+					item: {
+						Count: 1
+						id: "eccentrictome:tome"
+						tag: {
+							"eccentrictome:mods": {
+								ae2: {
+									0: {
+										Count: 1b
+										id: "ae2:guide"
+									}
+								}
+								aether: {
+									0: {
+										Count: 1b
+										id: "aether:book_of_lore"
+									}
+								}
+								apotheosis: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "apotheosis:apoth_chronicle"
+										}
+									}
+								}
+								botania: {
+									0: {
+										Count: 1b
+										id: "botania:lexicon"
+										tag: {
+											"botania:elven_unlock": 1b
+										}
+									}
+								}
+								buildinggadgets2: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+										}
+									}
+								}
+								dimdungeons: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "dimdungeons:guide_book"
+										}
+									}
+								}
+								industrialforegoing: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "industrialforegoing:industrial_foregoing"
+										}
+									}
+								}
+								irons_spellbooks: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "irons_spellbooks:iss_guide_book"
+										}
+									}
+								}
+								mysticalagriculture: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "mysticalagriculture:guide"
+										}
+									}
+								}
+								pneumaticcraft: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "pneumaticcraft:book"
+										}
+									}
+								}
+								productivebees: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "productivebees:guide"
+										}
+									}
+								}
+								rftoolsbase: {
+									0: {
+										Count: 1b
+										id: "rftoolsbase:manual"
+									}
+								}
+								sebastrnlib: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"
+										}
+									}
+								}
+								solcarrot: {
+									0: {
+										Count: 1b
+										id: "solcarrot:food_book"
+									}
+								}
+								storagenetwork: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "storagenetwork:network_book"
+										}
+									}
+								}
+								theoneprobe: {
+									0: {
+										Count: 1b
+										id: "theoneprobe:probenote"
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DC1E497AD011710"
+					item: {
+						Count: 1
+						id: "healingflasks:healing_flask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: "supplementaries:sign_post_oak"
+					id: "48A96B2C9212C592"
+					title: "{ftbquests.chapter.main_progression.quest1.reward.title1}"
+					type: "custom"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3BF7DE17EF648F93"
+				title: "{ftbquests.chapter.main_progression.quest1.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.main_progression.quest1.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3A56D7945D8B8C54"
+				"55F9A14778CDE8EB"
+			]
+			description: ["{ftbquests.chapter.main_progression.quest2.description1}"]
+			icon: "industrialforegoing:machine_frame_supreme"
+			id: "21AEBF159A033102"
+			rewards: [{
+				icon: "supplementaries:sign_post_oak"
+				id: "3BDF4315261148F8"
+				title: "{ftbquests.chapter.main_progression.quest2.reward.title1}"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "55E2D4CAEFDAF62E"
+				title: "{ftbquests.chapter.main_progression.quest2.task.title2}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.main_progression.quest2.title}"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"21AEBF159A033102"
+				"63548B7EDFFB2F9C"
+				"02002232A2E37340"
+				"1D9F4F8797E85F23"
+				"357E3AD70337910B"
+			]
+			description: ["{ftbquests.chapter.main_progression.quest3.description1}"]
+			icon: "pneumaticcraft:printed_circuit_board"
+			id: "399379D6E1029527"
+			rewards: [{
+				icon: "supplementaries:sign_post_oak"
+				id: "66EB2D3DCD1C6A4F"
+				title: "{ftbquests.chapter.main_progression.quest3.reward.title1}"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0D42FADC8E847B8E"
+				title: "{ftbquests.chapter.main_progression.quest3.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.main_progression.quest3.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"399379D6E1029527"
+				"3358AA85460F3437"
+			]
+			description: ["{ftbquests.chapter.main_progression.quest4.description1}"]
+			icon: "draconicevolution:reactor_core"
+			id: "1336CBEE426C4F5A"
+			rewards: [{
+				icon: "supplementaries:sign_post_oak"
+				id: "0C65D4EE9C314A07"
+				title: "{ftbquests.chapter.main_progression.quest4.reward.title1}"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1831369C8316C90F"
+				title: "{ftbquests.chapter.main_progression.quest4.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.main_progression.quest4.title}"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1336CBEE426C4F5A"
+				"5D8542C39BDECE33"
+			]
+			description: ["{ftbquests.chapter.main_progression.quest5.description1}"]
+			icon: "ae2:creative_item_cell"
+			id: "605AD830BC9CB508"
+			rewards: [{
+				icon: "supplementaries:sign_post_oak"
+				id: "7734F29B02A3CAC7"
+				title: "{ftbquests.chapter.main_progression.quest5.reward.title1}"
+				type: "custom"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "68F4AA9784D436C4"
+				title: "{ftbquests.chapter.main_progression.quest5.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.main_progression.quest5.title}"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: ["{ftbquests.chapter.main_progression.quest6.description1}"]
+			icon: "handcrafted:stackable_book"
+			id: "748D248A8A809914"
+			tasks: [{
+				id: "33803F27F94D82A9"
+				title: "{ftbquests.chapter.main_progression.quest6.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.main_progression.quest6.title}"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["748D248A8A809914"]
+			description: [
+				"{ftbquests.chapter.main_progression.quest7.description1}"
+				""
+				"{ftbquests.chapter.main_progression.quest7.description2}"
+				""
+				"{ftbquests.chapter.main_progression.quest7.description3}"
+				""
+				"{ftbquests.chapter.main_progression.quest7.description4}"
+				""
+				"{ftbquests.chapter.main_progression.quest7.description5}"
+				""
+				"{ftbquests.chapter.main_progression.quest7.description6}"
+			]
+			id: "1262B64803792801"
+			subtitle: "{ftbquests.chapter.main_progression.quest7.subtitle}"
+			tasks: [{
+				id: "266E45AE7B5D8C5D"
+				title: "{ftbquests.chapter.main_progression.quest7.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.main_progression.quest7.title}"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3A56D7945D8B8C54"]
+			icon: {
+				Count: 1
+				id: "eccentrictome:tome"
+				tag: {
+					"eccentrictome:mods": {
+						ae2: {
+							0: {
+								Count: 1b
+								id: "ae2:guide"
+							}
+						}
+						aether: {
+							0: {
+								Count: 1b
+								id: "aether:book_of_lore"
+							}
+						}
+						apotheosis: {
+							0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "apotheosis:apoth_chronicle"
+								}
+							}
+						}
+						botania: {
+							0: {
+								Count: 1b
+								id: "botania:lexicon"
+								tag: {
+									"botania:elven_unlock": 1b
+								}
+							}
+						}
+						buildinggadgets2: {
+							0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+								}
+							}
+						}
+						dimdungeons: {
+							0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "dimdungeons:guide_book"
+								}
+							}
+						}
+						industrialforegoing: {
+							0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "industrialforegoing:industrial_foregoing"
+								}
+							}
+						}
+						mysticalagriculture: {
+							0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "mysticalagriculture:guide"
+								}
+							}
+						}
+						pneumaticcraft: {
+							0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "pneumaticcraft:book"
+								}
+							}
+						}
+						productivebees: {
+							0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "productivebees:guide"
+								}
+							}
+						}
+						rftoolsbase: {
+							0: {
+								Count: 1b
+								id: "rftoolsbase:manual"
+							}
+						}
+						sebastrnlib: {
+							0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"
+								}
+							}
+						}
+						solcarrot: {
+							0: {
+								Count: 1b
+								id: "solcarrot:food_book"
+							}
+						}
+						storagenetwork: {
+							0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "storagenetwork:network_book"
+								}
+							}
+						}
+					}
+				}
+			}
+			id: "1096E237173C58B8"
+			rewards: [{
+				id: "26531E901728F94B"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:mods": {
+							ae2: {
+								0: {
+									Count: 1b
+									id: "ae2:guide"
+								}
+							}
+							aether: {
+								0: {
+									Count: 1b
+									id: "aether:book_of_lore"
+								}
+							}
+							apotheosis: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "apotheosis:apoth_chronicle"
+									}
+								}
+							}
+							botania: {
+								0: {
+									Count: 1b
+									id: "botania:lexicon"
+									tag: {
+										"botania:elven_unlock": 1b
+									}
+								}
+							}
+							buildinggadgets2: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+									}
+								}
+							}
+							dimdungeons: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "dimdungeons:guide_book"
+									}
+								}
+							}
+							industrialforegoing: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "industrialforegoing:industrial_foregoing"
+									}
+								}
+							}
+							irons_spellbooks: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "irons_spellbooks:iss_guide_book"
+									}
+								}
+							}
+							mysticalagriculture: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "mysticalagriculture:guide"
+									}
+								}
+							}
+							pneumaticcraft: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "pneumaticcraft:book"
+									}
+								}
+							}
+							productivebees: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "productivebees:guide"
+									}
+								}
+							}
+							rftoolsbase: {
+								0: {
+									Count: 1b
+									id: "rftoolsbase:manual"
+								}
+							}
+							sebastrnlib: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"
+									}
+								}
+							}
+							solcarrot: {
+								0: {
+									Count: 1b
+									id: "solcarrot:food_book"
+								}
+							}
+							storagenetwork: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "storagenetwork:network_book"
+									}
+								}
+							}
+							theoneprobe: {
+								0: {
+									Count: 1b
+									id: "theoneprobe:probenote"
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "{ftbquests.chapter.main_progression.quest8.subtitle}"
+			tasks: [{
+				id: "77CB955D2CC3D347"
+				title: "{ftbquests.chapter.main_progression.quest8.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.main_progression.quest8.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["748D248A8A809914"]
+			description: [
+				"{ftbquests.chapter.main_progression.quest9.description1}"
+				""
+				"{ftbquests.chapter.main_progression.quest9.description2}"
+				""
+				"{ftbquests.chapter.main_progression.quest9.description3}"
+				""
+				"{ftbquests.chapter.main_progression.quest9.description4}"
+				""
+				"{ftbquests.chapter.main_progression.quest9.description5}"
+				""
+				"{ftbquests.chapter.main_progression.quest9.description6}"
+			]
+			id: "7EA5B0F8D6DC5F9E"
+			subtitle: "{ftbquests.chapter.main_progression.quest9.subtitle}"
+			tasks: [{
+				id: "11C05E6B57453D81"
+				title: "{ftbquests.chapter.main_progression.quest9.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.main_progression.quest9.title}"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["748D248A8A809914"]
+			description: [
+				"{ftbquests.chapter.main_progression.quest10.description1}"
+				""
+				"{ftbquests.chapter.main_progression.quest10.description2}"
+			]
+			id: "1FD9F68B6770093C"
+			subtitle: "{ftbquests.chapter.main_progression.quest10.subtitle}"
+			tasks: [{
+				id: "3E66DA86F6C63715"
+				title: "{ftbquests.chapter.main_progression.quest10.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.main_progression.quest10.title}"
+			x: 4.0d
+			y: -2.5d
+		}
+	]
+	title: "{ftbquests.chapter.main_progression.title}"
+}

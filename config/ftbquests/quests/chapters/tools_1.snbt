@@ -1,0 +1,980 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools_1"
+	group: "590DDC7B00BCD5C7"
+	icon: {
+		Count: 1
+		id: "minecraft:iron_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2C478DCA97298D13"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3A56D7945D8B8C54"]
+			description: [
+				"{ftbquests.chapter.tools_1.quest1.description1}"
+				""
+				"{ftbquests.chapter.tools_1.quest1.description2}"
+				""
+				"{ftbquests.chapter.tools_1.quest1.description3}"
+				""
+				"{ftbquests.chapter.tools_1.quest1.description4}"
+				""
+				"{ftbquests.chapter.tools_1.quest1.description5}"
+				""
+				"{ftbquests.chapter.tools_1.quest1.description6}"
+				""
+				"{ftbquests.chapter.tools_1.quest1.description7}"
+			]
+			id: "47B600AF3A91F036"
+			rewards: [{
+				id: "6F03378EA34414EC"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "{ftbquests.chapter.tools_1.quest1.subtitle}"
+			tasks: [{
+				id: "646FEB3E03098AA0"
+				title: "{ftbquests.chapter.tools_1.quest1.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tools_1.quest1.title}"
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["47B600AF3A91F036"]
+			id: "29B8689F4BABE2A9"
+			shape: "square"
+			tasks: [{
+				id: "682750491BAC8CFD"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["29B8689F4BABE2A9"]
+			id: "6BB77F47FC3E6965"
+			rewards: [
+				{
+					id: "084594A7F99C060B"
+					item: "pamhc2foodcore:rabbitpotpieitem"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "62EB6494F26A5DE6"
+					item: {
+						Count: 1
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "287BCFB519E2DB28"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "2549ACBBA9806BF4"
+				item: {
+					Count: 1
+					id: "natprog:flint_hatchet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29B8689F4BABE2A9"]
+			id: "394E90D4A73CD20E"
+			rewards: [
+				{
+					id: "34327CEE47982293"
+					item: "pamhc2foodextended:citrussaladitem"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "670DEC74B33EBC1C"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21F4E9F963E17B0B"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6317297578A537D7"
+				item: {
+					Count: 1
+					id: "natprog:flint_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6BB77F47FC3E6965"]
+			id: "089E5A8387186778"
+			shape: "square"
+			tasks: [{
+				id: "10EA471C22DCDAAB"
+				item: {
+					Count: 1
+					id: "natprog:bone_shard"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["089E5A8387186778"]
+			id: "02E8A57F9B96CEA9"
+			rewards: [
+				{
+					id: "0500AACBB3C5A529"
+					item: "pamhc2foodextended:baconwrappeddatesitem"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "17F9C95447FEF3B7"
+					item: {
+						Count: 1
+						id: "immersive_armors:bone_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37CAAC20A7BA4BDA"
+					item: {
+						Count: 1
+						id: "immersive_armors:bone_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "075F62F6CF7528F0"
+				item: {
+					Count: 1
+					id: "natprog:bone_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["089E5A8387186778"]
+			id: "59407512A217AE6B"
+			rewards: [
+				{
+					id: "7B0676906D06F9A7"
+					item: "pamhc2foodcore:carrotmuffinitem"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "52448C787038CA5E"
+					item: {
+						Count: 1
+						id: "immersive_armors:bone_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "644EE29FCAF49BBA"
+					item: {
+						Count: 1
+						id: "immersive_armors:bone_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "5426BD39841D4BF9"
+				item: {
+					Count: 1
+					id: "natprog:bone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "04FB9C09400F9C90"
+			tasks: [{
+				id: "5D8AB06A5438472B"
+				item: {
+					Count: 1
+					id: "natprog:copper_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			id: "4EC818A849D61B8B"
+			rewards: [{
+				id: "0A2985CFD6D3EF77"
+				item: "pamhc2foodextended:cheesesteakitem"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "27726F31A77D3811"
+				item: {
+					Count: 1
+					id: "iceandfire:copper_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			id: "1E9BE701B5E51C9C"
+			rewards: [{
+				id: "72A6FCBA4F706732"
+				item: "pamhc2foodcore:cheesecakeitem"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7BC537FE45B1816B"
+				item: {
+					Count: 1
+					id: "iceandfire:copper_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			id: "0216F652856C97DE"
+			shape: "square"
+			tasks: [{
+				id: "20C37210E7B37AAC"
+				item: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			id: "06414155DED4D2F2"
+			shape: "square"
+			tasks: [{
+				id: "1DB1C03DFCD119B7"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			id: "548895FEA0AB8009"
+			rewards: [{
+				id: "581FF244266426C2"
+				item: "pamhc2foodextended:bratwurstitem"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "768162C880356A9B"
+				item: {
+					Count: 1
+					id: "iceandfire:copper_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			id: "577726B9BC8B4186"
+			rewards: [{
+				id: "19D7B22A2800DCE0"
+				item: "farmersdelight:stuffed_potato"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "47758560AB54D0B2"
+				item: {
+					Count: 1
+					id: "iceandfire:copper_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			id: "4AFF03A430507DBD"
+			tasks: [{
+				id: "41326EAAF8C296FA"
+				item: {
+					Count: 1
+					id: "natprog:iron_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			id: "147992C2FD0D2031"
+			shape: "square"
+			tasks: [{
+				id: "670B4DCC1E15CF65"
+				item: {
+					Count: 1
+					id: "minecraft:iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			id: "3499E858EEFA6EB2"
+			shape: "square"
+			tasks: [{
+				id: "4FB1655E18527606"
+				item: {
+					Count: 1
+					id: "minecraft:iron_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			id: "4A5342F08CD5D21D"
+			tasks: [{
+				id: "4C9A4B7F43E97E56"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			id: "23D911160352885B"
+			tasks: [{
+				id: "7FF06AED87E3BF37"
+				item: {
+					Count: 1
+					id: "natprog:diamond_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			id: "231358939AE05CAF"
+			tasks: [{
+				id: "11223564CD6D6A00"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			id: "729DFA90ED7E1ACE"
+			tasks: [{
+				id: "2D8790BD027459CB"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			id: "24918F2C1D335A46"
+			tasks: [{
+				id: "3E676F56FF84D9F7"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			id: "4A9D7282323248AB"
+			tasks: [{
+				id: "479F907906593216"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.6d
+		}
+		{
+			id: "04F8661111EC36C5"
+			tasks: [{
+				id: "1B4EA2A76F5B3C56"
+				item: {
+					Count: 1
+					id: "natprog:netherite_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.6d
+		}
+		{
+			id: "160DD5656DBFECCF"
+			tasks: [{
+				id: "538DCC74C18DC6B0"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.6d
+		}
+		{
+			id: "54FE62D357D827BC"
+			tasks: [{
+				id: "30822279FB836866"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.6d
+		}
+		{
+			id: "03A0B8C7C20D47CA"
+			tasks: [{
+				id: "7B8D2895CB77017E"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.6d
+		}
+		{
+			id: "2D5416BABE0CCD96"
+			rewards: [{
+				id: "21E9467541A3EA3D"
+				item: "pamhc2foodextended:steaktartareitem"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1F9766B7DA6C69BE"
+				item: {
+					Count: 1
+					id: "iceandfire:silver_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			id: "1F5D0EB248ED82F7"
+			rewards: [{
+				id: "176142056BE51B10"
+				item: "pamhc2foodextended:potatoskinsitem"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1B29B22A9AEB68FC"
+				item: {
+					Count: 1
+					id: "iceandfire:silver_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			id: "1B30586171734AB1"
+			rewards: [{
+				id: "5B84CF4654F808A3"
+				item: "pamhc2foodextended:chickentendersitem"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5428702C791083AE"
+				item: {
+					Count: 1
+					id: "iceandfire:silver_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			id: "56BE817ADEAF99E4"
+			rewards: [{
+				id: "01BEBA52819FF059"
+				item: "pamhc2foodextended:leekbaconsoupitem"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4DD7CFB190E438FB"
+				item: {
+					Count: 1
+					id: "iceandfire:silver_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4EC818A849D61B8B"
+				"1E9BE701B5E51C9C"
+				"548895FEA0AB8009"
+				"577726B9BC8B4186"
+				"5379B103AB57748A"
+				"651A6BE3D2E291A5"
+				"07CB11C77E68CFFC"
+				"0C9B7F783C1909FE"
+			]
+			description: [
+				"{ftbquests.chapter.tools_1.quest32.description1}"
+				""
+				"{ftbquests.chapter.tools_1.quest32.description2}"
+			]
+			id: "1F6113D2234C39DD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "051DE49E631BB543"
+					table_id: 4658539685949471833L
+					type: "random"
+				}
+				{
+					icon: "supplementaries:sign_post_oak"
+					id: "490C82F9B0A8FE7F"
+					title: "{ftbquests.chapter.tools_1.quest32.reward.title1}"
+					type: "custom"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "5B642F100A4ABFA3"
+				title: "{ftbquests.chapter.tools_1.quest32.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tools_1.quest32.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2D5416BABE0CCD96"
+				"1F5D0EB248ED82F7"
+				"1B30586171734AB1"
+				"56BE817ADEAF99E4"
+				"0ADB567CC875825F"
+				"6FC8A80BAEE98A25"
+				"0CB577A8D3093F3B"
+				"0E37A92A7331C24A"
+			]
+			description: [
+				"{ftbquests.chapter.tools_1.quest33.description1}"
+				""
+				"{ftbquests.chapter.tools_1.quest33.description2}"
+			]
+			id: "06F8EC95A7718D92"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0496254C3AAF4F11"
+					table_id: 4658539685949471833L
+					type: "random"
+				}
+				{
+					icon: "supplementaries:sign_post_oak"
+					id: "50BB767BE0A838E9"
+					title: "{ftbquests.chapter.tools_1.quest33.reward.title1}"
+					type: "custom"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "7E14E53810F76FD6"
+				title: "{ftbquests.chapter.tools_1.quest33.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tools_1.quest33.title}"
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"59407512A217AE6B"
+				"02E8A57F9B96CEA9"
+			]
+			description: ["{ftbquests.chapter.tools_1.quest34.description1}"]
+			id: "7F1D40E3D99C5160"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56734A499CFD0DB3"
+					table_id: 4658539685949471833L
+					type: "random"
+				}
+				{
+					icon: "supplementaries:sign_post_oak"
+					id: "699561E15B00A29C"
+					title: "{ftbquests.chapter.tools_1.quest34.reward.title1}"
+					type: "custom"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "29D6DF8C70218C70"
+				title: "{ftbquests.chapter.tools_1.quest34.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tools_1.quest34.title}"
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0216F652856C97DE"
+				"06414155DED4D2F2"
+				"147992C2FD0D2031"
+				"3499E858EEFA6EB2"
+				"7220A1B20B0B7310"
+				"070F78B4A0918C1E"
+				"1C510407ECB1BAAD"
+				"3ED5EF01FE30C05D"
+			]
+			description: [
+				"{ftbquests.chapter.tools_1.quest35.description1}"
+				""
+				"{ftbquests.chapter.tools_1.quest35.description2}"
+			]
+			id: "47CDFFB62C641DEB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "06F378783A3B46E0"
+					table_id: 4658539685949471833L
+					type: "random"
+				}
+				{
+					icon: "supplementaries:sign_post_oak"
+					id: "2CC85F92B9FFD451"
+					title: "{ftbquests.chapter.tools_1.quest35.reward.title1}"
+					type: "custom"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "27795493BEEE7A9F"
+				title: "{ftbquests.chapter.tools_1.quest35.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tools_1.quest35.title}"
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7F1D40E3D99C5160"
+				"1F6113D2234C39DD"
+				"06F8EC95A7718D92"
+			]
+			description: [
+				"{ftbquests.chapter.tools_1.quest36.description1}"
+				""
+				"{ftbquests.chapter.tools_1.quest36.description2}"
+				""
+				"{ftbquests.chapter.tools_1.quest36.description3}"
+			]
+			id: "656B3891DDB47892"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A642F1A03F54654"
+					table_id: 4658539685949471833L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64B8B0AA4BEE9C76"
+					table_id: 2698554318784890319L
+					type: "random"
+				}
+				{
+					id: "5F740B2B2E62A45D"
+					item: {
+						Count: 1
+						id: "ultimine_addition:miner_certificate"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "3A2F6475F9A683EE"
+				title: "{ftbquests.chapter.tools_1.quest36.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tools_1.quest36.title}"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["47B600AF3A91F036"]
+			description: [
+				"{ftbquests.chapter.tools_1.quest37.description1}"
+				""
+				"{ftbquests.chapter.tools_1.quest37.description2}"
+				""
+				"{ftbquests.chapter.tools_1.quest37.description3}"
+			]
+			id: "62AA602891B61337"
+			rewards: [
+				{
+					count: 20
+					id: "2EEB37867D00379E"
+					item: "natprog:andesite_pebble"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0BA953BD11E0DB94"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "{ftbquests.chapter.tools_1.quest37.subtitle}"
+			tasks: [{
+				id: "44BC09DD8025BBE1"
+				title: "{ftbquests.chapter.tools_1.quest37.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.tools_1.quest37.title}"
+			x: 8.5d
+			y: -5.0d
+		}
+	]
+	title: "{ftbquests.chapter.tools_1.title}"
+}

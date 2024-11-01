@@ -1,0 +1,481 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "read_me"
+	group: "32144DBD66776AC0"
+	icon: "minecraft:oak_sign"
+	id: "002703EC44A65616"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.read_me.quest1.description1}"
+				""
+				"{ftbquests.chapter.read_me.quest1.description2}"
+				""
+				"{ftbquests.chapter.read_me.quest1.description3}"
+				""
+				"{ftbquests.chapter.read_me.quest1.description4}"
+				""
+				"{ftbquests.chapter.read_me.quest1.description5}"
+			]
+			icon: "minecraft:oak_sign"
+			id: "3842A04BB4A957D9"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.read_me.quest1.subtitle}"
+			tasks: [{
+				id: "70BE71F8F05B9C4F"
+				title: "{ftbquests.chapter.read_me.quest1.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest1.title}"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3842A04BB4A957D9"]
+			description: [
+				"{ftbquests.chapter.read_me.quest2.description1}"
+				""
+				"{ftbquests.chapter.read_me.quest2.description2}"
+				""
+				"{ftbquests.chapter.read_me.quest2.description3}"
+				""
+				"{ftbquests.chapter.read_me.quest2.description4}"
+			]
+			icon: "artifacts:crystal_heart"
+			id: "0174B8D037486CC7"
+			shape: "square"
+			tasks: [{
+				id: "5E8B402074D527F0"
+				title: "{ftbquests.chapter.read_me.quest2.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest2.title}"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0174B8D037486CC7"]
+			description: [
+				"{ftbquests.chapter.read_me.quest3.description1}"
+				""
+				"{ftbquests.chapter.read_me.quest3.description2}"
+				""
+				"{ftbquests.chapter.read_me.quest3.description3}"
+				""
+				"{ftbquests.chapter.read_me.quest3.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "aether:valkyrie_gloves"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "59518B193D9F7836"
+			shape: "square"
+			tasks: [{
+				id: "04DD70F89B27E461"
+				title: "{ftbquests.chapter.read_me.quest3.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest3.title}"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["59518B193D9F7836"]
+			description: [
+				"{ftbquests.chapter.read_me.quest4.description1}"
+				""
+				"{ftbquests.chapter.read_me.quest4.description2}"
+				""
+				"{ftbquests.chapter.read_me.quest4.description3}"
+				"{ftbquests.chapter.read_me.quest4.description4}"
+				"{ftbquests.chapter.read_me.quest4.description5}"
+				"{ftbquests.chapter.read_me.quest4.description6}"
+				"{ftbquests.chapter.read_me.quest4.description7}"
+				""
+				"{ftbquests.chapter.read_me.quest4.description8}"
+				"{ftbquests.chapter.read_me.quest4.description9}"
+				"{ftbquests.chapter.read_me.quest4.description10}"
+				"{ftbquests.chapter.read_me.quest4.description11}"
+				"{ftbquests.chapter.read_me.quest4.description12}"
+				""
+				"{ftbquests.chapter.read_me.quest4.description13}"
+			]
+			icon: "plushies:zombie_villager_plushie"
+			id: "7DA184125BC90240"
+			shape: "square"
+			tasks: [{
+				id: "460C73B41FFB058B"
+				title: "{ftbquests.chapter.read_me.quest4.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest4.title}"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2953D10883305166"]
+			description: [
+				"{ftbquests.chapter.read_me.quest5.description1}"
+				""
+				"{ftbquests.chapter.read_me.quest5.description2}"
+			]
+			icon: "minecraft:map"
+			id: "57A6C5F1F66202C7"
+			shape: "square"
+			tasks: [{
+				id: "3C872594DA9F9BF0"
+				title: "{ftbquests.chapter.read_me.quest5.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest5.title}"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["57A6C5F1F66202C7"]
+			description: ["{ftbquests.chapter.read_me.quest6.description1}"]
+			icon: "mysticalagradditions:insanium_essence"
+			id: "0A3BE2D164E4F854"
+			shape: "square"
+			tasks: [{
+				id: "094D7B5E63515907"
+				title: "{ftbquests.chapter.read_me.quest6.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest6.title}"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A3BE2D164E4F854"]
+			description: [
+				"{ftbquests.chapter.read_me.quest7.description1}"
+				""
+				"{ftbquests.chapter.read_me.quest7.description2}"
+			]
+			icon: "aether:aether_portal_frame"
+			id: "3F93CF6B70529166"
+			shape: "square"
+			tasks: [{
+				id: "68736F50E343B879"
+				title: "{ftbquests.chapter.read_me.quest7.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest7.title}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F93CF6B70529166"]
+			description: ["{ftbquests.chapter.read_me.quest8.description1}"]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "092D2D9BBD18EB72"
+			shape: "square"
+			tasks: [{
+				id: "7B6D820009636631"
+				title: "{ftbquests.chapter.read_me.quest8.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest8.title}"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["47BD1CC1D06A34DF"]
+			id: "576F9F679631AB49"
+			shape: "hexagon"
+			subtitle: "{ftbquests.chapter.read_me.quest9.subtitle}"
+			tasks: [{
+				id: "60D45721C73A8E8B"
+				title: "{ftbquests.chapter.read_me.quest9.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest9.title}"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["092D2D9BBD18EB72"]
+			hide_dependency_lines: true
+			id: "47BD1CC1D06A34DF"
+			shape: "rsquare"
+			subtitle: "{ftbquests.chapter.read_me.quest10.subtitle}"
+			tasks: [{
+				id: "0CF21407C8DB4555"
+				title: "{ftbquests.chapter.read_me.quest10.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest10.title}"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47BD1CC1D06A34DF"]
+			description: ["{ftbquests.chapter.read_me.quest11.description1}"]
+			id: "7D67FB6BC04B6B7E"
+			shape: "square"
+			tasks: [{
+				id: "444DEE1333E4D2E8"
+				title: "{ftbquests.chapter.read_me.quest11.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest11.title}"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["47BD1CC1D06A34DF"]
+			description: [
+				"{ftbquests.chapter.read_me.quest12.description1}"
+				""
+				"{ftbquests.chapter.read_me.quest12.description2}"
+				""
+				"{ftbquests.chapter.read_me.quest12.description3}"
+			]
+			id: "74E5A584646FC35D"
+			shape: "gear"
+			tasks: [{
+				id: "1ECECE173ECA7282"
+				title: "{ftbquests.chapter.read_me.quest12.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest12.title}"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["47BD1CC1D06A34DF"]
+			description: ["{ftbquests.chapter.read_me.quest13.description1}"]
+			id: "341EAF79D87E5CCD"
+			tasks: [{
+				id: "7376799C40A17552"
+				title: "{ftbquests.chapter.read_me.quest13.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest13.title}"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["47BD1CC1D06A34DF"]
+			description: ["{ftbquests.chapter.read_me.quest14.description1}"]
+			id: "57981D417D475021"
+			shape: "heart"
+			tasks: [{
+				id: "54397C2C965C8288"
+				title: "{ftbquests.chapter.read_me.quest14.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest14.title}"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["092D2D9BBD18EB72"]
+			description: ["{ftbquests.chapter.read_me.quest15.description1}"]
+			hide_dependency_lines: true
+			icon: "minecraft:wheat_seeds"
+			id: "672220A1E0B85F2D"
+			shape: "square"
+			tasks: [{
+				id: "3CEC1A64A4F543E5"
+				title: "{ftbquests.chapter.read_me.quest15.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest15.title}"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["092D2D9BBD18EB72"]
+			description: [
+				"{ftbquests.chapter.read_me.quest16.description1}"
+				""
+				"{ftbquests.chapter.read_me.quest16.description2}"
+				""
+				"{ftbquests.chapter.read_me.quest16.description3}"
+				""
+				"{ftbquests.chapter.read_me.quest16.description4}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tombstone:decorative_grave_cross"
+				tag: {
+					model_texture: 0
+				}
+			}
+			id: "545937C5689C339F"
+			shape: "square"
+			tasks: [{
+				id: "55B8B88EFBA1D4BB"
+				title: "{ftbquests.chapter.read_me.quest16.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest16.title}"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["092D2D9BBD18EB72"]
+			description: [
+				"{ftbquests.chapter.read_me.quest17.description1}"
+				""
+				"{ftbquests.chapter.read_me.quest17.description2}"
+				""
+				"{ftbquests.chapter.read_me.quest17.description3}"
+				"{ftbquests.chapter.read_me.quest17.description4}"
+				"{ftbquests.chapter.read_me.quest17.description5}"
+				"{ftbquests.chapter.read_me.quest17.description6}"
+				"{ftbquests.chapter.read_me.quest17.description7}"
+				""
+				"{ftbquests.chapter.read_me.quest17.description8}"
+				""
+				"{ftbquests.chapter.read_me.quest17.description9}"
+				""
+				"{ftbquests.chapter.read_me.quest17.description10}"
+				""
+				"{ftbquests.chapter.read_me.quest17.description11}"
+				""
+				"{ftbquests.chapter.read_me.quest17.description12}"
+			]
+			hide_dependency_lines: true
+			icon: "rftoolsutility:creative_screen"
+			id: "7C437754A4ECF3C2"
+			shape: "square"
+			tasks: [{
+				id: "06405AEDABBD97CA"
+				title: "{ftbquests.chapter.read_me.quest17.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest17.title}"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["092D2D9BBD18EB72"]
+			description: [
+				"{ftbquests.chapter.read_me.quest18.description1}"
+				""
+				"{ftbquests.chapter.read_me.quest18.description2}"
+				""
+				"{ftbquests.chapter.read_me.quest18.description3}"
+				""
+				"{ftbquests.chapter.read_me.quest18.description4}"
+				"{ftbquests.chapter.read_me.quest18.description5}"
+				"{ftbquests.chapter.read_me.quest18.description6}"
+				"{ftbquests.chapter.read_me.quest18.description7}"
+				"{ftbquests.chapter.read_me.quest18.description8}"
+				""
+				"{ftbquests.chapter.read_me.quest18.description9}"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:writable_book"
+			id: "4A2336D2932CBBAF"
+			shape: "square"
+			tasks: [{
+				id: "2E072492462F9A37"
+				title: "{ftbquests.chapter.read_me.quest18.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest18.title}"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"672220A1E0B85F2D"
+				"545937C5689C339F"
+				"4A2336D2932CBBAF"
+				"7C437754A4ECF3C2"
+			]
+			description: [
+				"{ftbquests.chapter.read_me.quest19.description1}"
+				""
+				"{ftbquests.chapter.read_me.quest19.description2}"
+				"{ftbquests.chapter.read_me.quest19.description3}"
+				"{ftbquests.chapter.read_me.quest19.description4}"
+				"{ftbquests.chapter.read_me.quest19.description5}"
+				"{ftbquests.chapter.read_me.quest19.description6}"
+				"{ftbquests.chapter.read_me.quest19.description7}"
+				"{ftbquests.chapter.read_me.quest19.description8}"
+				"{ftbquests.chapter.read_me.quest19.description9}"
+				"{ftbquests.chapter.read_me.quest19.description10}"
+				"{ftbquests.chapter.read_me.quest19.description11}"
+				"{ftbquests.chapter.read_me.quest19.description12}"
+				"{ftbquests.chapter.read_me.quest19.description13}"
+			]
+			icon: "minecraft:end_portal_frame"
+			id: "30F9D708441CB9FC"
+			shape: "square"
+			tasks: [{
+				id: "42F32BB1BB0E0A79"
+				title: "{ftbquests.chapter.read_me.quest19.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest19.title}"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7DA184125BC90240"]
+			description: [
+				"{ftbquests.chapter.read_me.quest20.description1}"
+				""
+				"{ftbquests.chapter.read_me.quest20.description2}"
+				""
+				"{ftbquests.chapter.read_me.quest20.description3}"
+				""
+				"{ftbquests.chapter.read_me.quest20.description4}"
+			]
+			icon: {
+				Count: 1
+				id: "aether:vampire_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2953D10883305166"
+			shape: "square"
+			tasks: [{
+				id: "1C501EBA82CC3C3C"
+				title: "{ftbquests.chapter.read_me.quest20.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest20.title}"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["47BD1CC1D06A34DF"]
+			description: [
+				"{ftbquests.chapter.read_me.quest21.description1}"
+				""
+				"{ftbquests.chapter.read_me.quest21.description2}"
+			]
+			id: "09EE7BF567B5482D"
+			shape: "diamond"
+			tasks: [{
+				id: "4CAC6942D055A85F"
+				title: "{ftbquests.chapter.read_me.quest21.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.read_me.quest21.title}"
+			x: -2.5d
+			y: 3.5d
+		}
+	]
+	title: "{ftbquests.chapter.read_me.title}"
+}

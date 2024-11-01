@@ -1,0 +1,241 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end"
+	group: "7CE349CFA49357E1"
+	icon: "minecraft:end_stone"
+	id: "19162C1A29E03B8A"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3874CDFDBD3C8178"
+			shape: "diamond"
+			tasks: [{
+				id: "66F85FBCA73F7989"
+				title: "{ftbquests.chapter.end.quest1.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.end.quest1.title}"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3874CDFDBD3C8178"]
+			id: "5CDA5350C47E53C1"
+			shape: "square"
+			subtitle: "{ftbquests.chapter.end.quest2.subtitle}"
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "0CFC0E843B460728"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CDA5350C47E53C1"]
+			description: [
+				"{ftbquests.chapter.end.quest3.description1}"
+				""
+				"{ftbquests.chapter.end.quest3.description2}"
+				""
+				"{ftbquests.chapter.end.quest3.description3}"
+				""
+				"{ftbquests.chapter.end.quest3.description4}"
+				""
+				"{ftbquests.chapter.end.quest3.description5}"
+				""
+				"{ftbquests.chapter.end.quest3.description6}"
+			]
+			icon: "draconicevolution:chaos_shard"
+			id: "744B8EAF7DC0C7CE"
+			rewards: [
+				{
+					id: "4AE8A5BC82B0195D"
+					item: {
+						Count: 1
+						id: "productivebees:spawn_egg_configurable_bee"
+						tag: {
+							EntityTag: {
+								type: "productivebees:chaos"
+							}
+						}
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "01A03C24F46EE380"
+					item: {
+						Count: 1
+						id: "productivebees:spawn_egg_configurable_bee"
+						tag: {
+							EntityTag: {
+								type: "productivebees:draconic"
+							}
+						}
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "17A14328D1394840"
+					item: "mysticalagriculture:draconium_seeds"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "41C11DC236FB211F"
+					item: "mysticalagriculture:awakened_draconium_seeds"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				id: "5E43A5F0CB044175"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{ftbquests.chapter.end.quest3.title}"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3874CDFDBD3C8178"]
+			id: "594A683C3D375208"
+			shape: "diamond"
+			tasks: [{
+				id: "1478ECE191CFEFEB"
+				title: "{ftbquests.chapter.end.quest4.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.end.quest4.title}"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["594A683C3D375208"]
+			id: "5E8EE27D8CD31493"
+			subtitle: "{ftbquests.chapter.end.quest5.subtitle}"
+			tasks: [{
+				id: "067B7D89AF083601"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.end.quest5.title}"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["594A683C3D375208"]
+			description: ["{ftbquests.chapter.end.quest6.description1}"]
+			id: "7B1F4EF6DF4233B4"
+			tasks: [{
+				advancement: "cataclysm:find_ruined_citadel"
+				criterion: ""
+				id: "4668DBF5683F2334"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B1F4EF6DF4233B4"]
+			description: [
+				"{ftbquests.chapter.end.quest7.description1}"
+				""
+				"{ftbquests.chapter.end.quest7.description2}"
+			]
+			id: "38AA05F10498D676"
+			subtitle: "{ftbquests.chapter.end.quest7.subtitle}"
+			tasks: [{
+				advancement: "cataclysm:kill_ender_golem"
+				criterion: ""
+				id: "655B7A972DE107CF"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38AA05F10498D676"]
+			description: [
+				"{ftbquests.chapter.end.quest8.description1}"
+				""
+				"{ftbquests.chapter.end.quest8.description2}"
+			]
+			id: "1AD567B3ACC50DF9"
+			subtitle: "{ftbquests.chapter.end.quest8.subtitle}"
+			tasks: [{
+				advancement: "cataclysm:kill_ender_guardian"
+				criterion: ""
+				id: "5B44EAA2BB887A38"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1AD567B3ACC50DF9"]
+			icon: {
+				Count: 1
+				id: "blue_skies:loot_bag_alchemist"
+				tag: {
+					LootTable: "blue_skies:loot_bags/alchemist/common"
+					Rarity: 0
+				}
+			}
+			id: "5A334FE298A91931"
+			rewards: [
+				{
+					id: "71EC22CB4F4F11AA"
+					item: "mysticalagriculture:nether_star_seeds"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "05EC9E8A6A40E85B"
+					item: "mysticalagradditions:nether_star_crux"
+					type: "item"
+				}
+				{
+					id: "444C15C89A991BF1"
+					item: "mysticalagriculture:awakened_draconium_seeds"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "42812A3EB06243DE"
+					item: "mysticalagradditions:awakened_draconium_crux"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46AB484B3A188F8A"
+					table_id: 4658539685949471833L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DD036249756CF23"
+					table_id: 2698554318784890319L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "36908FCABFC2FCD6"
+				title: "{ftbquests.chapter.end.quest9.task.title1}"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.end.quest9.title}"
+			x: 6.5d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.end.title}"
+}
