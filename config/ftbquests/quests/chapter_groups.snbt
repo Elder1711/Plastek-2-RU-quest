@@ -1,0 +1,15 @@
+{
+	chapter_groups: [
+		{ id: "32144DBD66776AC0", title: "{ftbquests.chapter_groups.title0}" }
+		{ id: "7CE349CFA49357E1", title: "{ftbquests.chapter_groups.title1}" }
+		{ id: "19728293E5F01751", title: "{ftbquests.chapter_groups.title2}" }
+		{ id: "79C502F79CD205E5", title: "{ftbquests.chapter_groups.title3}" }
+		{ id: "29E2459388A87C4C", title: "{ftbquests.chapter_groups.title4}" }
+		{ id: "590DDC7B00BCD5C7", title: "{ftbquests.chapter_groups.title5}" }
+		{ id: "24F1909F4C56276F", title: "{ftbquests.chapter_groups.title6}" }
+		{ id: "17D4659CA536FD99", title: "{ftbquests.chapter_groups.title7}" }
+		{ id: "581F41F63919A6BC", title: "{ftbquests.chapter_groups.title8}" }
+		{ id: "028CF99D99B38014", title: "{ftbquests.chapter_groups.title9}" }
+		{ id: "1D085754C16989B5", title: "{ftbquests.chapter_groups.title10}" }
+	]
+}
