@@ -19,4 +19,4 @@
 
 ###### Ключевые слова для поиска
 
-`Minecraft, Plstek 2, перевод Questbook, русификатор Questbook, перевод Minecraft, русификация, FTB, перевод сборки, русский язык в Minecraft, Minecraft 1.20.1, квесты на русском.`
+`Minecraft, Plastek 2, перевод Questbook, русификатор Questbook, перевод Minecraft, русификация, FTB, перевод сборки, русский язык в Minecraft, Minecraft 1.20.1, квесты на русском.`
